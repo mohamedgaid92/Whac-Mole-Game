@@ -57,6 +57,7 @@ h4{
  border-radius:50%;
  background-color: #6930c3;
  overflow: hidden;
+  cursor:pointer;
 }
 .mole{
   background-image: url("imgs/4472540.jpg");
