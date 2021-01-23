@@ -41,8 +41,11 @@ circles.forEach(
 function countDownTimer(){
   countDown--;
   timeRemaining.textContent = countDown;
-  if(countDown === 0){
+  if(countDown === -1){
     alert("start new game");
+    timeRemaining.textContent = 60;
+    countDown=60;
+    startGame();
     clearInterval(timelimit);
     clearInterval(randomInterval);
   }
